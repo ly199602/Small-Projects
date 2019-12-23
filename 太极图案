@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>太极</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .box1{
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .box2{
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            position: absolute;
+            left:-250px;
+        }
+        .box3{
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            position: absolute;
+            right: -250px;
+        }
+        .box4{
+            width: 250px;
+            height: 250px;
+            background-color: black;
+            position: absolute;
+            left: 125px;
+            border-radius: 50%;
+        }
+        .box5{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+            right: 125px;
+            border-radius: 50%;
+        }
+        .box6{
+            width: 125px;
+            height: 125px;
+            background-color: white;
+            position: absolute;
+            top: 62.5px;
+            left: 187.5px;
+            border-radius: 50%;
+        }
+        .box7{
+            width: 125px;
+            height: 125px;
+            background-color: black;
+            position: absolute;
+            bottom: 62.5px;
+            right: 187.5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+</div>
+</body>
+</html>
